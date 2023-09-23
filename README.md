@@ -33,4 +33,4 @@ Initially, we are using a pretrained version of ResNet50 model which is trained 
 
 The pretrained model performed well with a small train and test loss. Although, finetuned model showed signs of overfitting and the loss was comparatively high than the base model. Also, while finetunning we used multiple layers while earlier we only used one layer. This can be the reason for making the model complex and moving towards, overfitting.
 
-![Alt text](Output Image/Screenshot 2023-09-23 201908.png)
+![alt text](Output Image/Screenshot 2023-09-23 201908.png)
