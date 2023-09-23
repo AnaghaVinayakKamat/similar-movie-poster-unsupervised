@@ -33,4 +33,11 @@ Initially, we are using a pretrained version of ResNet50 model which is trained 
 
 The pretrained model performed well with a small train and test loss. Although, finetuned model showed signs of overfitting and the loss was comparatively high than the base model. Also, while finetunning we used multiple layers while earlier we only used one layer. This can be the reason for making the model complex and moving towards, overfitting.
 
-![alt text](Output Image/Screenshot 2023-09-23 201908.png)
+#### Output results for retrieving similar images using KNN regressor
+![alt text](https://github.com/AnaghaVinayakKamat/similar-movie-poster-unsupervised/blob/33a1d0b38dd9488356f8e8efcceabac1966fd5ea/Output%20Image/Screenshot%202023-09-23%20201908.png)
+
+#### Mean Absolute Error (MAE) graph for year prediction model without finetuning
+![alt text](https://github.com/AnaghaVinayakKamat/similar-movie-poster-unsupervised/blob/0e8c047e07ac21acf99a7255d53863a09e3f3c4c/Output%20Image/output.png)
+
+#### Mean Absolute Error (MAE) graph for year prediction model with finetuning
+![alt text](https://github.com/AnaghaVinayakKamat/similar-movie-poster-unsupervised/blob/0e8c047e07ac21acf99a7255d53863a09e3f3c4c/Output%20Image/output2.png)
